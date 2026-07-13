@@ -67,6 +67,26 @@ Features include:
 * Individual item removal from the inventory through dropping
 
 ---
+## Repair System
+
+Implemented a modular repair system integrated with the inventory framework.
+
+Features include:
+
+* Removal, installation, and replacement of repair parts
+* Repair workflow driven by repair data structures
+* Base Blueprints for reusable repair pieces and repair interactable objects
+* Inventory-integrated repair parts and validation
+* Dynamic repair UI with inventory slot support
+* Step-based repair process supporting ordered repair actions
+* Complete phone repair example:
+
+  * Remove back cover
+  * Replace battery
+  * Reinstall back cover
+* Easily extendable to support additional repairable objects and workflows
+
+---
 
 ## User Interface
 
